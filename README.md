@@ -1,5 +1,7 @@
 # Sprockets::Translate
 
+{<img src="https://codeclimate.com/github/alanmulhall/sprockets-translate.png" />}[https://codeclimate.com/github/alanmulhall/sprockets-translate]
+
 TODO: Write a gem description
 
 ## Installation
