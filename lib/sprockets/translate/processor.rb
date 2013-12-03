@@ -12,7 +12,7 @@ module Sprockets
       def prepare; end
 
       def evaluate(context, locals, &block)
-        if Rails.env == 'development'
+        if Rails.env.production?
           @parser = Parser.new(data, keys) if keys.any?
         end
 

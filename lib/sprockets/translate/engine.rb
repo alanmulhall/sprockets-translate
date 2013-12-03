@@ -7,7 +7,7 @@ module Sprockets
                   before: "i18n-js.asset_dependencies",
                   group: :all do |app|
 
-        app.assets.register_preprocessor 'application/javascript', Sprockets::Translate::Processor
+        app.assets.register_engine '.i18n', Sprockets::Translate::Processor
 
       end
 

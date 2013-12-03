@@ -14,6 +14,7 @@ module Sprockets
 
       def interpolation
         @keys.each do |key|
+          binding.pry
           @data.gsub!(key, I18n.t(key))
         end
       end
